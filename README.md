@@ -29,3 +29,15 @@
 ### Or move to dotfiles
 `cd ~/.dotfiles && brew bundle`
 
+
+### Transition from old to new mac
+- Old: 
+    - [x] Get a dump of old mac Brewfile
+    - [x] sync & disconnect iCloud drive
+    - [x] Airdrop downloads files to new mac
+    - [x] sync chrome profiles and delete 
+    - [ ] workspace: cleanup stuff and transfer files to new mac
+    - [x] transfer .zsh_history
+- New:
+    - [x] connect iCloud drive
+    - [ ] 
