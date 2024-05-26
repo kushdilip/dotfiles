@@ -26,3 +26,6 @@ brew bundle --file ./Brewfile
 
 # Set macOS preferences - we will run this last because this will reload the shell
 # source ./.macos
+
+# Remove and copy gitconfig
+rm ~/.githconfig cp .gitconfig ~/.gitconfig
