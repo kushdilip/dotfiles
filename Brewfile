@@ -7,6 +7,7 @@ brew "mas"
 brew "sshuttle"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+brew "tree"
 mas "Magnet", id: 441258766
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
