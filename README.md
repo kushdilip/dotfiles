@@ -47,3 +47,4 @@
 - https://driesvints.com/blog/getting-started-with-dotfiles/
 - https://github.com/driesvints/dotfiles/blob/main/fresh.sh
 - https://github.com/mathiasbynens/dotfiles
+- https://dotfiles.github.io/tutorials/

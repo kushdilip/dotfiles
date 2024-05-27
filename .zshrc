@@ -103,9 +103,23 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export NODE_OPTIONS="--max-old-space-size=12288"
 alias python=/usr/bin/python3
 
+# Shell Aliases
+## Git Aliases
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias got='git '
+alias get='git '
+
+## Miscellaneous Aliases
+alias htop='sudo htop'
 
 # bun completions
 [ -s "/Users/dkushwah/.bun/_bun" ] && source "/Users/dkushwah/.bun/_bun"
@@ -117,6 +131,12 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias gobizops="ssh lva1-bizops04.linkedin.biz"
 alias goholdem="ssh ltx1-holdemgw01.grid.linkedin.com"
 alias gofaro="ssh ltx1-farogw01.grid.linkedin.com"
+
+# NodeJS/Volta
+export NODE_OPTIONS="--max-old-space-size=12288"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
 
 # FUNCTIONS
 
@@ -173,5 +193,8 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+# qfind - used to quickly find files that contain a string in a directory
+qfind () {
+  find . -exec grep -l -s $1 {} \;
+  return 0
+}

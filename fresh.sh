@@ -29,3 +29,6 @@ brew bundle --file ./Brewfile
 
 # Remove and link gitconfig
 rm $HOME/.githconfig && ln -s ./.gitconfig $HOME/.gitconfig
+
+# Link .tmux.conf
+ln -s ./.tmux.conf $HOME/.tmux.conf
