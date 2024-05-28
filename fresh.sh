@@ -32,3 +32,6 @@ rm $HOME/.githconfig && ln -s ./.gitconfig $HOME/.gitconfig
 
 # Link .tmux.conf
 ln -s ./.tmux.conf $HOME/.tmux.conf
+
+# Link .custom functions
+ln -s ./.custom_functions $HOME/.custom_functions
