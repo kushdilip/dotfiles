@@ -77,3 +77,5 @@
 
 	# Automatically correct and execute mistyped commands.
 	autocorrect = 1
+[push]
+	autoSetupRemote = true

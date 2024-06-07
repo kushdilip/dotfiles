@@ -23,3 +23,6 @@ alias htop='sudo htop'
 # ssh-add aliases
 alias sshper='ssh-add -D && ssh-add ~/.ssh/github_personal_token'
 alias sshli='ssh-add -D && ssh-add ~/.ssh/dkushwah_at_linkedin.com_ssh_key'
+
+# ingraph cli
+alias ico='ingraphs dashboard checkout'

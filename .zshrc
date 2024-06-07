@@ -115,8 +115,6 @@ if [ -f ~/.custom_functions ]; then
 fi
 
 # Volta
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
 
 # NodeJS/Volta
 export NODE_OPTIONS="--max-old-space-size=12288"
@@ -127,3 +125,5 @@ export NODE_OPTIONS="--max-old-space-size=12288"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
