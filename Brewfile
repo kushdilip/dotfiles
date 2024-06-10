@@ -11,7 +11,16 @@ brew "stow"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Status bar application to enable/disable Yubikey Nano
+cask "pallotron-yubiswitch"
+# Text editor for code, markup and prose
+cask "sublime-text"
+mas "Goodnotes", id: 1444383602
+mas "Kindle", id: 302584613
 mas "Magnet", id: 441258766
+mas "Reeder", id: 1529448980
+mas "TickTick", id: 966085870
+vscode "chiragpat.vscode-glimmer"
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
@@ -21,6 +30,9 @@ vscode "github.copilot-chat"
 vscode "graphql.vscode-graphql"
 vscode "graphql.vscode-graphql-syntax"
 vscode "humao.rest-client"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.remote-explorer"
