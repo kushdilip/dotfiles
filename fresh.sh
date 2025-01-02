@@ -35,3 +35,7 @@ ln -s ./.tmux.conf $HOME/.tmux.conf
 
 # Link .custom functions
 ln -s ./.custom_functions $HOME/.custom_functions
+
+# timezone setup for rdev
+# sudo rm -rf /etc/localtime
+# sudo ln -s /usr/share/zoneinfo/Asia/Kolkata /etc/localtime

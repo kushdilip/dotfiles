@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Dilip Kushwaha
-	email = dkushwah@linkedin.com
+	# email = [add email]
 
 [core]
     pager = less -F -X

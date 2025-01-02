@@ -42,6 +42,8 @@
     - [x] connect iCloud drive
     - [ ] 
 
+### Dotfiles todo
+- [ ] setup separate fresh.sh for linux/rdev machine.
 
 ## Tutorial & dotfiles repos followed
 - https://driesvints.com/blog/getting-started-with-dotfiles/

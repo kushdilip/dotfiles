@@ -127,3 +127,11 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+# $HOME/.cargo/bin is added to user PATH by MDM
+case ":${PATH}:" in
+    *:"$HOME/.cargo/bin":*)
+    ;;
+    *)
+    export PATH="$PATH:$HOME/.cargo/bin"
+    ;;
+esac

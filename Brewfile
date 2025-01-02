@@ -11,6 +11,8 @@ brew "stow"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Opensource IDE for exploring and testing api's
+cask "bruno"
 # Status bar application to enable/disable Yubikey Nano
 cask "pallotron-yubiswitch"
 # Text editor for code, markup and prose
